@@ -1,0 +1,103 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.container > * > * {
+  border: 2px solid;
+  margin: 0;
+}
+
+.center {
+  display: flex;
+}
+
+.content {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  align-items: center;
+}
+
+.content > iframe{
+  
+}
+
+
+.ad {
+  width: 20%;
+  background-image: url("../images/image-asset.jpeg");
+  background-color: #cccccc;
+  background-size: cover;
+}
+
+.footer > h5,
+.header > h1 {
+  text-align: center;
+  padding: 1rem;
+}
+
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 20%;
+  
+  align-items: center;
+}
+
+.game-list {
+  display: flex;
+  width: 60%;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.game1,
+.game2,
+.game3,
+.game4 {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  border: 1px solid red;
+  width: 20%;
+  height: 95%;
+  margin: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.game1-img,
+.game2-img,
+.game3-img,
+.game4-img {
+  border-radius: 0.5rem;
+  border: 1px solid green;
+  width: 80%;
+  height: auto;
+  margin: 0.2rem;
+  
+}
+
+.game1-name,
+.game2-name,
+.game3-name,
+.game4-name {
+  justify-content: baseline;
+}
+img {
+  max-width: 100%;
+  max-height: inherit;
+  border-radius: 0.5rem;
+}
+
+
+.contact-form{
+  width: 60%;
+  padding: 2rem;
+}
